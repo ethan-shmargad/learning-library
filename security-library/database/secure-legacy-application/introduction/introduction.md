@@ -15,9 +15,9 @@ Oracle Database Vault implements data security controls within Oracle Database t
 
 Estimated Time: 90 minutes
 
-<!---
-![Lab Architecture](images/roadmap.png)
--->
+
+![Lab Architecture](images/intro-architecture.png)
+
 ### Objectives
 
 In this lab, you will complete the following tasks:
