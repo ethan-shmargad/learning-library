@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, we will show you how to teardown you Glassfish HR application and terminate the ATP instance. This will reset your environment to as it was before.
+In this lab, we will show you how to teardown your Glassfish HR application and terminate the ATP instance. This will reset your environment to as it was before.
 
 ### Objectives
 
@@ -23,5 +23,10 @@ This lab assumes you have:
 ## Acknowledgements
 
 - **Author**- Ethan Shmargad, North America Specialists Hub
+<<<<<<< HEAD
 - **Creator**- Richard Evans, Senior Principle Product Manager
 - **Last Updated By/Date** - Ethan Shmargad, September 2022
+=======
+- **Contributers**- Richard Evans, Senior Principle Product Manager
+- **Last Updated By/Date** - Ethan Shmargad, September 2022
+>>>>>>> 26292d83babfc607d89b0c1bb14980dc61bdaf12
