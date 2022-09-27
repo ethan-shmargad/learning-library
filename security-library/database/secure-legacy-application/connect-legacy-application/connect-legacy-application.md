@@ -29,5 +29,5 @@ You may now **proceed to the next lab.**
 ## Acknowledgements
 
 - **Author**- Ethan Shmargad, North America Specialists Hub
-- **Contributers**- Richard Evans, Senior Principle Product Manager
+- **Creator**- Richard Evans, Senior Principle Product Manager
 - **Last Updated By/Date** - Ethan Shmargad, September 2022
