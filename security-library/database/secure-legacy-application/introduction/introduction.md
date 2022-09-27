@@ -13,10 +13,9 @@ Using Oracle Database Vault, customers can learn how to migrate their legacy app
 
 Oracle Database Vault implements data security controls within Oracle Database to restrict access to application data by privileged users. Reduce the risk of insider and outside threats and address compliance requirements, including separation of duties.
 
-Estimated Time: 90 minutes
-
-
 ![Lab Architecture](images/intro-architecture.png)
+
+Estimated Time: 90 minutes
 
 ### Objectives
 
