@@ -2,7 +2,7 @@
 
 ## Introduction
 
-One of the primary challenges when moving to the cloud is how to manage the migration of the enterprises legacy applications and services. Using the power of Oracle database vault and Autonomous DB, customers can have flexibility and peace of mind when it comes to moving their legacy services and applications to the cloud, with their data encrypted and secured at rest and in motion.
+One of the primary challenges when moving to the cloud is how to integrate legacy enterprises applications and services into the modern, secure, cloud. Using the power of Oracle Database Vault and Autonomous DB, customers can have flexibility and peace of mind when it comes to moving their legacy services and applications to the cloud, with their data encrypted and secured at rest and in motion.
 
 When you boil it down, the hostility towards moving to the cloud comes from three main reasons when it comes the realm of security:
 - Losing control: When a system goes down, who is to blame?
