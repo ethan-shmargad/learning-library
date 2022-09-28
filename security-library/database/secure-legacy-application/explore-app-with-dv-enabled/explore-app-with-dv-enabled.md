@@ -19,7 +19,21 @@ This lab assumes you have:
 
 ## Task 1: Flip the Database Vault realm from simulation to enforcement mode
 
+		   BEGIN
+			  DVSYS.DBMS_MACADM.UPDATE_REALM(
+				  realm_name => 'PROTECT_MYHRAPP'
+				  ,description => 'A mandatory realm, in simulation mode, to show how EMPLOYEESEARCH_PROD would be protected'
+				  ,enabled => DBMS_MACUTL.G_YES
+				  ,audit_options => DBMS_MACUTL.G_REALM_AUDIT_FAIL
+				  ,realm_type => 1); 
+		   END;
+		   /
+
 ## Task 2: Explore the application and demonstrate the inability to query application data through Database Actions
+
+select userid, firstname, lastname, emptype, position, ssn, sin, nino
+  from employeesearch_prod.demo_hr_employees
+ where rownum < 10;
 
 You may now **proceed to the next lab.**
 
