@@ -24,6 +24,7 @@ This lab assumes you have:
 ## Task 2: Save the non-mTLS connection string in the Glassfish application server's properties file.
 
 ./save_connection_string.sh
+
 ./test_connection_string.sh
 
 ## Task 3: Create the EMPLOYEESEARCH_PROD schema using SQL*Plus from the Glassfish App Server.
