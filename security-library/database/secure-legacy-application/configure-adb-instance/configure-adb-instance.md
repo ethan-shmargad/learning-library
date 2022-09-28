@@ -21,9 +21,17 @@ This lab assumes you have:
 
 ## Task 1: Create an ATP database instance.
 
-## Task 2: Create the EMPLOYEESEARCH_PROD schema using Database Actions.
+## Task 2: Save the non-mTLS connection string in the Glassfish application server's properties file.
 
-## Task 3: Save the non-mTLS connection string in the Glassfish application server's properties file.
+./save_connection_string.sh
+./test_connection_string.sh
+
+## Task 3: Create the EMPLOYEESEARCH_PROD schema using SQL*Plus from the Glassfish App Server.
+
+./load_app_data.sh
+./update_app_connection_string.sh 
+./startGlassfish.sh
+
 
 You may now **proceed to the next lab.**
 
