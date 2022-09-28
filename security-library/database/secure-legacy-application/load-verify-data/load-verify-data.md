@@ -22,7 +22,17 @@ This lab assumes you have:
 
 ## Task 1: Load the EMPLOYEESEARCH_PROD schema objects and data into the ATP instance
 
-## Task 2: Verify the HR app functions using the Glassfish app public IP
+This occurs after you have already copied the Connection String and saved it using ./save_connection_string.sh
+
+To load the data, run: ./load_app_data.sh
+
+## Task 2: Configure the HR app to use the ATP connection string
+
+./update_app_connection_string.sh 
+
+
+
+## Task 3: Verify the HR app functions using the Glassfish app public IP
 
 You may now **proceed to the next lab.**
 
