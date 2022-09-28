@@ -30,7 +30,9 @@ This lab assumes you have:
 ## Task 3: Create the EMPLOYEESEARCH_PROD schema using SQL*Plus from the Glassfish App Server.
 
 ./load_app_data.sh
+
 ./update_app_connection_string.sh 
+
 ./startGlassfish.sh
 
 
