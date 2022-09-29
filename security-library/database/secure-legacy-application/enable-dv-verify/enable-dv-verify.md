@@ -19,7 +19,40 @@ This lab assumes you have:
 
 ## Task 1: Enable Database Vault on the ATP instance
 
+As ADMIN in DB Actions
+
+-- Create DV owner
+CREATE USER sec_admin_owen IDENTIFIED BY WElcome_123#;
+GRANT CREATE SESSION TO sec_admin_owen;
+GRANT SELECT ANY DICTIONARY TO sec_admin_owen;
+GRANT AUDIT_ADMIN to sec_admin_owen;
+
+-- Create DV account manager
+CREATE USER accts_admin_ace IDENTIFIED BY WElcome_123#;
+GRANT CREATE SESSION TO accts_admin_ace;
+GRANT AUDIT_ADMIN to accts_admin_ace;
+
+-- Enable SQL Worksheet for the users just created
+BEGIN
+   ORDS_ADMIN.ENABLE_SCHEMA(p_enabled => TRUE, p_schema => UPPER('sec_admin_owen'), p_url_mapping_type => 'BASE_PATH', p_url_mapping_pattern => LOWER('sec_admin_owen'), p_auto_rest_auth => TRUE);
+   ORDS_ADMIN.ENABLE_SCHEMA(p_enabled => TRUE, p_schema => UPPER('accts_admin_ace'), p_url_mapping_type => 'BASE_PATH', p_url_mapping_pattern => LOWER('accts_admin_ace'), p_auto_rest_auth => TRUE);
+END;
+/
+
+EXEC DBMS_CLOUD_MACADM.CONFIGURE_DATABASE_VAULT('sec_admin_owen', 'accts_admin_ace');
+
+EXEC DBMS_CLOUD_MACADM.ENABLE_DATABASE_VAULT;
+
+SELECT * FROM DBA_DV_STATUS;
+
+Restart the ATP instance
+
+SELECT * FROM DBA_DV_STATUS;
+
 ## Task 2: Verify that the HR application still functions
+
+Use a web browser and navigate to the Glassfish App page to verify it functions without issue. 
+
 
 You may now **proceed to the next lab.**
 
