@@ -21,6 +21,30 @@ This lab assumes you have:
 
 ## Task 1: Create an ATP database instance.
 
+1. With OCI open, we will navigate to the ATP portal by selecting the hamburger menu in the top left corner, which will allow for you to select **Oracle Database** and then, **Autonomous Transaction Processing.**
+
+![Select ATP from OCI menu](images/select-atp-menu.png) 
+
+2. Select **Create Autonomous Database.**
+
+    ![Select Create Autonomous Database](images/create-autonomous-database.png) 
+
+3. Enter a display name and database name.  
+
+    ![Enter database name](images/name-database.png) 
+
+4. Create a password for admin credentials.
+
+    ![Enter admin credentials](images/atp-password.png) 
+
+5. Change network access to **allowed IPs and VCNs only** and change IP notation type to **CIDR Block.** 
+
+    ![Enter admin credentials](images/secure-access.png) 
+
+6. Select **License included** and then select **Create Autonomous Database** at the bottom.
+
+    ![Create ADB button at the bottom](images/create-atp.png)
+
 ## Task 2: Create the EMPLOYEESEARCH_PROD schema using Database Actions.
 
 ## Task 3: Save the non-mTLS connection string in the Glassfish application server's properties file.
