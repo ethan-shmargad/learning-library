@@ -38,12 +38,6 @@ This lab assumes you have:
 - Some basic understanding of data protection and security is a plus
 - Some familiarity with Linux/Bash commands is helpful
 
-<!---
-Download the lab files here: 
-[SQL Files](https://objectstorage.us-ashburn-1.oraclecloud.com/p/vmkYRTjFDKT14aBgppExmxjWXNForfovxySRrgqJGlWMacsc6mMtClQY1a6foD3c/n/orasenatdpltsecitom03/b/Twitter_LL/o/Twitter_LL1.zip)
-[Python Files](https://objectstorage.us-ashburn-1.oraclecloud.com/p/tVAwp-XWRsm1oouSHDzzZwyUQ5TErSPpPNhuYPMTbSJOZlC-Pvsed-caGfHYrkV5/n/orasenatdpltsecitom03/b/Twitter_LL/o/Twitter_LL2.zip)
--->
-
 ## Want to learn more about Oracle Database Vault?
 - [Oracle Database Vault Landing Page](https://www.oracle.com/uk/security/database-security/database-vault/)
 - [Introduction to Oracle Database Vault](https://docs.oracle.com/database/121/DVADM/dvintro.htm#DVADM001)
@@ -51,6 +45,6 @@ Download the lab files here:
 
 ## Acknowledgements
 
-- **Author**- Ethan Shmargad, North America Specialists Hub
-- **Creator**- Richard Evans, Senior Principle Product Manager
+- **Author** - Ethan Shmargad, North America Specialists Hub
+- **Creator** - Richard Evans, Senior Principle Product Manager
 - **Last Updated By/Date** - Ethan Shmargad, September 2022

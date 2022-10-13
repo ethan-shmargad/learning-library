@@ -11,8 +11,6 @@ For more information on the Autonomous Transaction Processing database click [he
 In this lab, you will complete the following tasks:
 
 - Create an ATP database instance.
-- Create the `EMPLOYEESEARCH_PROD` schema using **Database Actions**.
-- Save the **non-mTLS** connection string in the Glassfish application server's properties file.
 
 ### Prerequisites
 
@@ -45,26 +43,18 @@ This lab assumes you have:
 
     ![Create ADB button at the bottom](images/create-atp.png)
 
-## Task 2: Save the non-mTLS connection string in the Glassfish application server's properties file.
+7. Navigate back to the ATP instance you created. At the top of the page, select **DB Connection**.
 
-./save_connection_string.sh
+    ![Navigate to DB connection](images/db-connection.png)
 
-./test_connection_string.sh
+8. Scroll down to the **Connection Strings** section of the menu. Under TLS Authentication, make sure **TLS** is selected, not **Mutual TLS**. Then, copy the first connection string to a clipboard of your choice. You will save this string in a particular location in the following steps.
 
-## Task 3: Create the EMPLOYEESEARCH_PROD schema using SQL*Plus from the Glassfish App Server.
-
-./load_app_data.sh
-
-./update_app_connection_string.sh 
-
-./startGlassfish.sh
-
+    ![Copy connection string](images/copy-connection-string.png)
 
 You may now **proceed to the next lab.**
 
 ## Acknowledgements
 
-- **Author**- Ethan Shmargad, North America Specialists Hub
-- **Creator**- Richard Evans, Senior Principle Product Manager
+- **Author** - Ethan Shmargad, North America Specialists Hub
+- **Creator** - Richard Evans, Senior Principle Product Manager
 - **Last Updated By/Date** - Ethan Shmargad, September 2022
-
