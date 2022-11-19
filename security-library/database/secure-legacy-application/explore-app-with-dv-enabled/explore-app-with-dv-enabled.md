@@ -10,7 +10,7 @@ In this lab, we will now flip our Database Vault Realm from **simulation** to **
 In this lab, you will complete the following tasks:
 
 - Flip the Database Vault realm from **simulation** to **enforcement** mode
-- Explore the application and demonstrate the inability to query application data through Database Actions
+- Explore the application and demonstrate the inability to query application data through Database Actions as ADMIN or DBA_DEBRA
 
 ### Prerequisites
 
